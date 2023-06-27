@@ -1,0 +1,21 @@
+{
+    "name": "Plataforma Multimagem",
+    "version": "1.0.0",
+    "description": "Plataforma Multimagem",
+    "main": "server/server.js",
+    "scripts": {
+        "start": "node server/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/joaoafb/multimagem.git"
+    },
+    "author": "@jvitorafb",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-rate-limit": "^5.3.0",
+        "node-forge": "^0.10.0"
+    }
+}
